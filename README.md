@@ -73,3 +73,4 @@ Sources:
 https://stackoverflow.com/questions/37619798/d3-svg-line-error-uncaught-typeerror-cannot-read-property-line-of-undefine
 https://gist.github.com/d3noob/4414436
 http://bl.ocks.org/d3noob/4414436
+http://www.d3noob.org/2013/01/adding-title-to-your-d3js-graph.html

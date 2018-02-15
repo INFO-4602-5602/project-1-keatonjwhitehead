@@ -239,12 +239,12 @@
          .append("g")
          .attr("transform", "translate("+margin.left + "," + margin.top+")");
 
-    svg51.append("text")
-           .attr("x",(width/2))
-           .attr("y",0)
-           .attr("text-anchor", "middle")
-           .style("font-size","16px")
-           .text("Anscombe I");
+    svg5_1.append("text")
+          .attr("x", (width/2))
+          .attr("y", 0 - (margin.top / 2))
+          .attr("text-anchor", "middle")
+          .style("font-size", "15px")
+          .text("Anscombe I");
 
      d3.csv("data/anscombe_I.csv",function(error,data){
           if (error) throw error;
@@ -336,6 +336,13 @@
          .attr("height", height + margin.top + margin.bottom)
          .append("g")
          .attr("transform", "translate("+margin.left + "," + margin.top+")");
+
+    svg5_2.append("text")
+          .attr("x", (width/2))
+          .attr("y", 0 - (margin.top / 2))
+          .attr("text-anchor", "middle")
+          .style("font-size", "15px")
+          .text("Anscombe II");
 
      d3.csv("data/anscombe_II.csv",function(error,data){
           if (error) throw error;
@@ -429,6 +436,13 @@
          .append("g")
          .attr("transform", "translate("+margin.left + "," + margin.top+")");
 
+    svg5_3.append("text")
+          .attr("x", (width/2))
+          .attr("y", 0 - (margin.top / 2))
+          .attr("text-anchor", "middle")
+          .style("font-size", "15px")
+          .text("Anscombe III");
+
      d3.csv("data/anscombe_III.csv",function(error,data){
           if (error) throw error;
           // Scale the range of the data
@@ -521,6 +535,14 @@
          .attr("height", height + margin.top + margin.bottom)
          .append("g")
          .attr("transform", "translate("+margin.left + "," + margin.top+")");
+
+   svg5_4.append("text")
+         .attr("x", (width/2))
+         .attr("y", 0 - (margin.top / 2))
+         .attr("text-anchor", "middle")
+         .style("font-size", "15px")
+         .text("Anscombe IV");
+
 
      d3.csv("data/anscombe_IV.csv",function(error,data){
           if (error) throw error;
