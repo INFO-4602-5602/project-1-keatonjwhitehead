@@ -3,15 +3,22 @@ body {
     font-size: 11px;
 }
 
+path {
+  stroke: steelblue;
+  stroke-width: 2;
+  fill: none;
+}
+
 .axis path,
 .axis line {
     fill: none;
-    stroke: #000;
+    stroke: grey;
+    stroke-width: 1;
     shape-rendering: crispEdges;
 }
 
 .point {
-    fill: #f00; 
+    fill: #f00;
     stroke: #000;
 }
 
